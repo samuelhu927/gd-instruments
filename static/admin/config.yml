@@ -1,0 +1,43 @@
+backend:
+  name: github
+  repo: samuelhu927/gd-instruments
+  branch: main
+  base_url: https://你的worker名字.你的子域.workers.dev  # 稍后替换
+
+media_folder: "static/img/uploads"
+public_folder: "/img/uploads"
+
+collections:
+  - name: "products"
+    label: "仪器产品"
+    folder: "content/products"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "产品名称", name: "title", widget: "string"}
+      - {label: "分类", name: "categories", widget: "list", required: false}
+      - {label: "价格", name: "price", widget: "string", required: false}
+      - {label: "产品图片", name: "image", widget: "image", required: false}
+      - {label: "产品描述", name: "body", widget: "markdown"}
+
+  - name: "pages"
+    label: "页面"
+    files:
+      - label: "首页"
+        name: "home"
+        file: "content/_index.md"
+        fields:
+          - {label: "标题", name: "title", widget: "string"}
+          - {label: "内容", name: "body", widget: "markdown"}
+      - label: "关于我们"
+        name: "about"
+        file: "content/about/_index.md"
+        fields:
+          - {label: "标题", name: "title", widget: "string"}
+          - {label: "内容", name: "body", widget: "markdown"}
+      - label: "联系我们"
+        name: "contact"
+        file: "content/contact/_index.md"
+        fields:
+          - {label: "标题", name: "title", widget: "string"}
+          - {label: "内容", name: "body", widget: "markdown"}
