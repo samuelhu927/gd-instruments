@@ -1,9 +1,8 @@
 backend:
-  name: github
+  name: git-gateway
   repo: samuelhu927/gd-instruments
   branch: main
-  base_url: https://api.decapcms.org
-  auth_endpoint: auth
+  base_url: https://cms.made-in-gd.com  # 稍后替换
 
 media_folder: "static/img/uploads"
 public_folder: "/img/uploads"
