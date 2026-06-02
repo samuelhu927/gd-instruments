@@ -2,7 +2,7 @@ backend:
   name: github
   repo: samuelhu927/gd-instruments
   branch: main
-  base_url: https://你的worker名字.你的子域.workers.dev  # 稍后替换
+  base_url: https://decap-cms-proxy.86009819.workers.dev/  # 稍后替换
 
 media_folder: "static/img/uploads"
 public_folder: "/img/uploads"
