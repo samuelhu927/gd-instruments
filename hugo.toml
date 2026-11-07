@@ -9,7 +9,8 @@ defaultContentLanguage = "en"
   date_format = "January 2, 2006"
   defaultKeywords = ["custom spring manufacturer", "compression spring supplier", "extension spring China", "spring testing machine"]
   defaultDescription = "Discover verified spring manufacturers from China. Browse compression, extension, torsion and disc springs, and find the right testing equipment for your springs."
-  logo_text = "Spring Showcase"
+  disabled_logo = true
+  logo_text = "SPRING SHOWCASE"
   copyright = "Copyright (c) 2026, Spring Showcase. All rights reserved."
   about_us = "<p>We connect global buyers with verified Chinese spring manufacturers, and supply precision spring testing equipment for quality control.</p>"
   formspree_action = "https://formspree.io/f/你的表单ID"
@@ -34,33 +35,40 @@ defaultContentLanguage = "en"
     url = "/springs/"
     weight = 1
     hasChildren = true
+
 [[menu.main]]
     name = "Compression Springs"
     url = "/springs/compression-springs/"
     weight = 1
     parent = "Springs"
+
 [[menu.main]]
     name = "Extension Springs"
     url = "/springs/extension-springs/"
     weight = 2
     parent = "Springs"
+
 [[menu.main]]
     name = "Torsion Springs"
     url = "/springs/torsion-springs/"
     weight = 3
     parent = "Springs"
+
 [[menu.main]]
     name = "Testing Equipment"
     url = "/spring-testing/"
     weight = 2
+
 [[menu.main]]
     name = "Free Listing"
     url = "/free-listing/"
     weight = 3
+
 [[menu.main]]
     name = "About"
     url = "/about/"
     weight = 4
+
 [[menu.main]]
     name = "Contact"
     url = "/contact/"
