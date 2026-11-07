@@ -1,43 +1,40 @@
 backend:
-  name: git-gateway
-  repo: samuelhu927/gd-instruments
-  branch: main
-  base_url: https://cms.made-in-gd.com
+  name: test-repo
+  local_backend: true
 
 media_folder: "static/img/uploads"
 public_folder: "/img/uploads"
 
 collections:
   - name: "products"
-    label: "仪器产品"
-    folder: "content/products"
+    label: "弹簧产品"
+    folder: "content/springs"
     create: true
     slug: "{{slug}}"
+    nested:
+      depth: 2
     fields:
       - {label: "产品名称", name: "title", widget: "string"}
-      - {label: "分类", name: "categories", widget: "list", required: false}
-      - {label: "价格", name: "price", widget: "string", required: false}
+      - {label: "所属分类", name: "categories", widget: "list", required: false}
+      - {label: "生产厂家", name: "manufacturer", widget: "string", required: false}
+      - {label: "材质", name: "material", widget: "string", required: false}
+      - {label: "线径范围", name: "wire_range", widget: "string", required: false}
+      - {label: "应用场景", name: "application", widget: "string", required: false}
       - {label: "产品图片", name: "image", widget: "image", required: false}
       - {label: "产品描述", name: "body", widget: "markdown"}
 
   - name: "pages"
-    label: "页面"
+    label: "单页设置"
     files:
-      - label: "首页"
-        name: "home"
-        file: "content/_index.md"
+      - label: "拉力试验机 (Testing Equipment)"
+        name: "testing"
+        file: "content/spring-testing/_index.md"
         fields:
           - {label: "标题", name: "title", widget: "string"}
           - {label: "内容", name: "body", widget: "markdown"}
-      - label: "关于我们"
-        name: "about"
-        file: "content/about/_index.md"
-        fields:
-          - {label: "标题", name: "title", widget: "string"}
-          - {label: "内容", name: "body", widget: "markdown"}
-      - label: "联系我们"
-        name: "contact"
-        file: "content/contact/_index.md"
+      - label: "免费陈列 (Free Listing)"
+        name: "free-listing"
+        file: "content/free-listing/_index.md"
         fields:
           - {label: "标题", name: "title", widget: "string"}
           - {label: "内容", name: "body", widget: "markdown"}
