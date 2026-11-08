@@ -13,7 +13,7 @@ layout: "single"
   <div style="background: #f8f9fa; padding: 40px; border-radius: 8px; border: 1px solid #eee;">
     <h3 style="margin-top: 0; margin-bottom: 20px; color: #1e3c72;">Send Us a Message</h3>
     
-<form action="https://formsubmit.co/86009819@qq.com" method="POST">
+<form action="https://formsubmit.co/9d0b267be98893a8ca02f929cd3d8b69" method="POST">
       <!-- 下面这两行是防垃圾和自定义邮件标题 -->
       <input type="hidden" name="_subject" value="New Inquiry from Spring Showcase">
       <input type="text" name="_honey" style="display:none">
