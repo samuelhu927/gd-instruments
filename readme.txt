@@ -20,3 +20,7 @@
 建主页：在 compression-springs 文件夹里复制一份 supplier-a.md，改名成 supplier-xxx.md，把里面的公司名、成立年份、产品范围改掉。
 
 挂链接：打开分类页 _index.md，复制一段 <div style="border:..."> 代码，把标题改成新工厂名字，链接改成 href="/springs/compression-springs/supplier-xxx/"。
+
+表格注册: Samuel Hu
+86009819@qq.com
+6jwVwxd7sn:kSGa@
