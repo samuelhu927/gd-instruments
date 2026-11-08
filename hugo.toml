@@ -13,7 +13,7 @@ defaultContentLanguage = "en"
   logo_text = "SPRING SHOWCASE"
   copyright = "Copyright (c) 2026, Spring Showcase. All rights reserved."
   about_us = "<p>We connect global buyers with verified Chinese spring manufacturers, and supply precision spring testing equipment for quality control.</p>"
-  formspree_action = "https://formspree.io/f/你的表单ID"
+
   contact_url = "/contact/"
 
 [params.recent_posts]
