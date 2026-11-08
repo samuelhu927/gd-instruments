@@ -2,6 +2,7 @@
 title: "OEM Extension Spring — Hook Ends, 0.1–20 mm Wire"
 manufacturer: "Example Spring Co. (Shandong)"
 material: "Carbon Steel / Stainless Steel / Music Wire"
+image: "/img/springs/2.jpg"
 wire_range: "0.1 – 20 mm"
 application: "Machinery, electronics, automotive, hardware"
 ---

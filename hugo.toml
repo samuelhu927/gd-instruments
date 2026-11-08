@@ -73,3 +73,8 @@ defaultContentLanguage = "en"
     name = "Contact"
     url = "/contact/"
     weight = 5
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

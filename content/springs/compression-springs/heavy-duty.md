@@ -2,6 +2,7 @@
 title: "Heavy-Duty Compression Spring — 50CrVA, 3–50 mm Wire"
 manufacturer: "Example Spring Co. (Guangdong)"
 material: "50CrVA / 65Mn / Stainless Steel"
+image: "/img/springs/1.jpg" 
 wire_range: "3 – 50 mm"
 application: "Farm machinery, shock absorption, automotive"
 ---
