@@ -1,0 +1,21 @@
+---
+title: "Stress Relief Tempering of Spring Steel: Temperature, Time and the Ductility Trade-Off"
+date: 2020-06-09
+layout: "single"
+---
+Stress relief tempering is a heat treatment applied to spring steel after quenching and before or after coiling, depending on the manufacturing route. Its purpose is to reduce residual stresses introduced by forming and by the quench itself, and to adjust the balance between strength and ductility. The temperature window for stress relief tempering is typically in the range of 200–300°C for many spring steels, and the effects on microstructure and mechanical properties are both measurable and consequential.
+
+A 2019 study on quenched and partitioned commercial spring steel investigated the effects of stress relief tempering at 200–300°C on microstructure, tensile behavior, and impact toughness. The study found that stress relief tempering in this range caused a twofold increase in ductility, with elongation reaching up to 9%, while maintaining or improving ultimate tensile strength. This result illustrates a key point about stress relief tempering: it is not simply a softening treatment. At these relatively low temperatures, the primary effect is the relief of internal stresses and the redistribution of carbon, rather than the extensive coarsening of carbides that occurs at higher tempering temperatures. The steel can become more ductile without a proportionate loss of strength, which is exactly the combination that a spring needs: enough strength to carry the load, and enough ductility to survive deflection without cracking.
+
+The time at temperature is as important as the temperature itself. Stress relief is a diffusion-controlled process; the residual stresses relax as the microstructure re-arranges, and this takes time. A short excursion to temperature may relieve surface stresses but leave the core stresses largely intact. The appropriate time depends on the section size of the spring, the furnace atmosphere, and the initial stress state. For small wire diameters, the time to temperature is short and the hold time can be correspondingly brief. For larger sections, the hold time must be long enough for the center of the section to reach temperature and for the relaxation process to complete.
+
+The atmosphere also matters. If stress relief tempering is performed in an uncontrolled atmosphere, surface decarburization or oxidation can occur, creating a soft surface layer that becomes a fatigue initiation site. For critical springs, stress relief is performed in a protective atmosphere or vacuum, or the surface is subsequently removed by grinding or shot peening. The interaction between stress relief and shot peening is important: if shot peening is performed before stress relief, the residual compressive stresses introduced by peening may be partially relaxed by the tempering treatment. The correct sequence is usually to stress relieve first, then shot peen, so that the beneficial compressive surface stresses are preserved.
+
+For spring manufacturers, the practical conclusion is that stress relief tempering is not a generic “warm-up” step. The temperature, time, and atmosphere must be specified for the specific spring steel and the specific manufacturing route, and the results must be verified by hardness, tensile, or impact testing. A spring that is under-tempered will be strong but brittle; a spring that is over-tempered will be ductile but may not carry the required load. The window between these extremes is narrow, and it is defined by the tempering parameters.
+
+<div style="background: #f8f9fa; padding: 20px; border-left: 4px solid #00a0b0; margin-top: 30px;">
+  <h4 style="margin-top: 0;">Need to verify spring performance against ASTM, ISO or AMS standards?</h4>
+  <p style="margin-bottom: 15px;">The standards and test methods discussed above require reliable force-displacement and fatigue data. Our <strong>Spring Tension & Compression Testers</strong> are designed for accurate, traceable measurement in accordance with ISO 7500-1 and ASTM E4.</p>
+  <a href="/spring-testing/" style="display: inline-block; padding: 10px 20px; background: #1e3c72; color: white; text-decoration: none; border-radius: 5px;">View Testing Equipment</a>
+</div>
+

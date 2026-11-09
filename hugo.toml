@@ -74,6 +74,16 @@ defaultContentLanguage = "en"
     url = "/contact/"
     weight = 5
 
+[[menu.main]]
+    name = "Technical Docs"
+    url = "/docs/"
+    weight = 6
+
+[[menu.main]]
+    name = "中文文档"
+    url = "/docs/zh/"
+    weight = 7
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]

@@ -1,0 +1,21 @@
+---
+title: "EN ISO 6931-1:2020 and Stainless Steel Spring Wire for Corrosive Environments"
+date: 2019-04-23
+layout: "single"
+---
+EN ISO 6931-1:2020 is the European adoption of ISO 6931-1:2016, specifying stainless steel wire for springs in the cold-drawn condition, with circular cross-section up to 10.00 mm in diameter, intended for springs and spring parts exposed to corrosive effects and sometimes to slightly elevated temperatures. For spring manufacturers serving European markets or specifying stainless springs in corrosive service, this standard provides the reference framework for grade selection, mechanical property verification and dimensional acceptance.
+
+The standard covers austenitic stainless steel grades commonly used in spring manufacture, including 1.4310 (AISI 301), 1.4401 (316), and 1.4404 (316L), among others. These grades are supplied in the cold-drawn condition, where the wire achieves its strength through work hardening during drawing rather than through quench-and-temper heat treatment. The absence of a martensitic transformation means that the strength of a stainless spring wire is a direct function of the drawing reduction and the resulting dislocation density. Consequently, the mechanical properties of stainless spring wire—tensile strength, yield strength, and elongation—vary with wire diameter and drawing condition, and the standard specifies property ranges as a function of diameter rather than a single minimum value.
+
+A critical distinction between stainless spring wire and carbon spring wire is the role of post-coiling heat treatment. Carbon steel springs, particularly those made from oil-tempered wire, rely on stress relief after coiling to restore fatigue resistance without losing the tempered martensite structure. Austenitic stainless steel springs, in contrast, cannot be strengthened by heat treatment; the only practical post-coiling thermal treatment is a low-temperature stress relief, typically in the range of 200–400°C, which relieves forming stresses and improves dimensional stability but does not significantly alter tensile strength. For precipitation-hardening grades such as 17-7PH, a separate aging treatment is required to develop strength, and this must be distinguished from the stress relief applied to austenitic grades.
+
+EN ISO 6931-1:2020 specifies not only the grades and their mechanical property ranges but also the general delivery requirements, including surface condition, permissible defects, and testing methods. The standard references ISO 404 for general technical delivery requirements, which covers inspection documents, marking, and packaging. For a spring manufacturer, this means that purchasing stainless spring wire to EN ISO 6931-1:2020 involves more than checking the grade designation: the mill certificate must confirm the drawing condition, the tensile strength class for the ordered diameter, and the surface quality acceptance criteria.
+
+The practical implication for design and procurement is that stainless spring wire selection cannot be reduced to “use 302” or “use 316.” The diameter, drawing condition, and applicable mechanical property range must all be specified. A 1.00 mm 302 stainless wire and a 5.00 mm 302 stainless wire will have different tensile strength ranges under the same standard, and a spring designed without accounting for this difference may fail either by insufficient load capacity or by excessive stress at solid height. EN ISO 6931-1:2020 provides the structure for making these distinctions explicit in the technical specification.
+
+<div style="background: #f8f9fa; padding: 20px; border-left: 4px solid #00a0b0; margin-top: 30px;">
+  <h4 style="margin-top: 0;">Need to verify spring performance against ASTM, ISO or AMS standards?</h4>
+  <p style="margin-bottom: 15px;">The standards and test methods discussed above require reliable force-displacement and fatigue data. Our <strong>Spring Tension & Compression Testers</strong> are designed for accurate, traceable measurement in accordance with ISO 7500-1 and ASTM E4.</p>
+  <a href="/spring-testing/" style="display: inline-block; padding: 10px 20px; background: #1e3c72; color: white; text-decoration: none; border-radius: 5px;">View Testing Equipment</a>
+</div>
+
