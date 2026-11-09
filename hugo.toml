@@ -71,7 +71,7 @@ defaultContentLanguage = "en"
 
 [[menu.main]]
     name = "Contact"
-    url = "/contact/"
+    url = "/contact-us/"
     weight = 5
 
 [[menu.main]]
