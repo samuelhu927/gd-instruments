@@ -88,3 +88,5 @@ defaultContentLanguage = "en"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+cleanDestinationDir = true
